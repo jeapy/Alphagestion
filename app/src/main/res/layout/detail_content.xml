@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/headcd"
+        android:textColor="@color/bg_main"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/list_commande"
+        android:background="@color/white"
+        />
+    <ListView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:id="@+id/list_commande"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/bg_screen1"
+        android:dividerHeight="1dp"
+
+        />
+
+</RelativeLayout>

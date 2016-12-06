@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp" >
+
+
+        <TextView
+            android:id="@+id/refer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+
+            android:text="Bon de sortie N°"
+            android:textColor="@color/input_login"
+            android:textSize="12dp" />
+    <TextView
+        android:id="@+id/reference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:textStyle="bold"
+        android:text="hehfiheof"
+        android:textColor="@color/input_login"
+        android:textSize="12dp"
+        android:layout_toRightOf="@+id/refer"
+       />
+
+
+        <TextView
+            android:id="@+id/nomlivreur"
+            android:layout_below="@+id/reference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:text="fdzuhdizhihhre"
+            android:textStyle="italic"
+            android:textColor="@color/input_login_hint" />
+
+        <TextView
+            android:id="@+id/numerolivreur"
+            android:layout_below="@+id/nomlivreur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:text="nngjgjghg"
+            android:paddingRight="16dp"
+            android:textStyle="italic"
+            android:textColor="@color/input_login_hint" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="5.0" />
+
+    <TextView
+        android:id="@+id/req"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="5.0" />
+
+</RelativeLayout>

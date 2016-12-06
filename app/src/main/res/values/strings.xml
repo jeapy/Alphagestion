@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">AlphaG</string>
+    <string name="title_activity_welcome">Bienvenu</string>
+    <string name="title_commande">Approvisionnement</string>
+    <string name="title_oldcommande">Historique</string>
+    <string name="title_oldlinecommande">Detail</string>
+    <string name="title_materiel">Materiels</string>
+    <string name="title_famille">Famille</string>
+    <string name="title_detail">Detail</string>
+    <string name="title_linebon">Detail du bon</string>
+    <string name="title_bon">Bon de livraison</string>
+    <string name="next">SUIVANT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">SE CONNECTER</string>
+
+    <string name="sortie">SORTIE</string>
+    <string name="entree">RETOUR</string>
+
+    <string name="slide_1_title">ALPHAGESTION</string>
+    <string name="slide_1_desc">Plateforme mobile de gestion d\'entrepot de construction</string>
+
+    <string name="slide_2_title">HISTORIQUE</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">NOTIFICATION</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">TRANSACTION</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+
+    <string name="hint_email">Nom</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="btn_login">CONNEXION</string>
+
+    <string name="notification">ALPHAGESTION</string>
+    <string name="notification_title">Bon de livraison</string>
+    <string name="notification_desc">Veillez verifier et valider le bon de livraison</string>
+
+</resources>

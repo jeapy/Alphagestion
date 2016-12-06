@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg_screen3"
+    tools:context="info.androidhive.alphagestion.fragments.TransactionFragment">
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnSortie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chevronup"
+       android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SORTIE INTERNE"
+        android:textSize="15dp"
+        android:id="@+id/textView"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnSortie" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnEntree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chevrondown"
+        android:layout_below="@+id/textView"
+        android:layout_centerInParent="true" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RETOUR INTERNE"
+            android:textSize="15dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/btnEntree" />
+
+
+</RelativeLayout>
